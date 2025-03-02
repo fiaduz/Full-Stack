@@ -1,41 +1,77 @@
-# Full-Stack
-This is a Full Stack Responsive website for uploading and showcasing users' favourite memories. The application have the following features. 1. User Authentication 2. Image Upload 3. Show images in mosaic formation
+# 🌟 Full-Stack Image Sharing App
 
-Technologies Used:
-1. Backend - Python (Django)
-2. Frontend - ReactJS
-   
-# Steps To Run This Project
-  **Backend Setup**
-Step 1 - Open the backend directory in terminal and install the dependencies from requirements.txt
-Step 2 - Then run the command "python manage.py runserver" it will run the app in port **localhost:8000**
-You are all set for the backend
+This is a **Full Stack Responsive Website** for uploading and showcasing users' favorite memories.
 
-  **Frontend Setup**
-Now head towards the frontend directory and open it in a terminal and run the command "npm start" it will start the react app in port **localhost:3000**
-And you will see a Landing page with some images uploaded by user.
+## ✨ Features
 
-# Admin Panel
-username = admin
-password = admin
-You can access the admin panel by going to localhost:8000/admin
+- ✅ User Authentication
+- ✅ Image Upload
+- ✅ Display images in a **mosaic format**
 
-# Some Test usernames
-username = zudaif
-password = zudaif
+---
 
-username = sonu
-password = sonu
+## 🛠 Technologies Used
 
-username = john
-username = john
+### **Backend**: Python (Django) 🐍
 
-You can login by these usernames to see their uploaded images and also upload new images
-You can also signup for new user and upload images
+### **Frontend**: ReactJS ⚛️
 
-# Some Important Urls
-1. localhost:300 (Landing Page with Login & Signup form)
-2. localhost:300/signup (Signup Page)
-3. localhost:300/login (Login Page)
-4. localhost:300/homepage (User Dashboard)
-5. localhost:300/username (Public user page)
+---
+
+## 🚀 Steps to Run This Project
+
+### 🔹 **Backend Setup**
+
+1. Open the `backend` directory in the terminal.
+2. Install dependencies from `requirements.txt`:
+   ```sh
+   pip install -r requirements.txt
+   ```
+3. Run the Django development server:
+   ```sh
+   python manage.py runserver
+   ```
+4. The backend will be available at: **[http://localhost:8000/](http://localhost:8000/)** 🎉
+
+### 🔹 **Frontend Setup**
+
+1. Navigate to the `frontend` directory in the terminal.
+2. Start the React app:
+   ```sh
+   npm start
+   ```
+3. The frontend will be available at: **[http://localhost:3000/](http://localhost:3000/)** 🚀
+
+---
+
+## 🔑 Admin Panel Access
+
+- **Username**: `admin`
+- **Password**: `admin`
+- Access the admin panel at: **[http://localhost:8000/admin](http://localhost:8000/admin)**
+
+---
+
+## 🤓 Test User Credentials
+
+| Username | Password |
+| -------- | -------- |
+| zudaif   | zudaif   |
+| sonu     | sonu     |
+| john     | john     |
+
+👉 You can log in using these credentials to **view uploaded images and upload new ones.**\
+👉 Alternatively, **sign up as a new user** and upload your own images.
+
+---
+
+## 🔗 Important URLs
+
+| Page                              | URL                                                                        |
+| --------------------------------- | -------------------------------------------------------------------------- |
+| **Landing Page** (Login & Signup) | [http://localhost:3000](http://localhost:3000)                             |
+| **Signup Page**                   | [http://localhost:3000/signup](http://localhost:3000/signup)               |
+| **Login Page**                    | [http://localhost:3000/login](http://localhost:3000/login)                 |
+| **User Dashboard**                | [http://localhost:3000/homepage](http://localhost:3000/homepage)           |
+| **Public User Profile**           | `http://localhost:3000/username` (Replace `username` with actual username) |
+
